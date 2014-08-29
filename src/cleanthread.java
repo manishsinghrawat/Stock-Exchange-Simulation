@@ -14,7 +14,7 @@ public class cleanthread implements Runnable {
         this.sell=sell;
         this.t1=t1;
         this.t2=t2;
-        file=new File("c:\\cleanup.out");
+        file=new File("..\\cleanup.out");
 
         try{
             if (!file.exists())

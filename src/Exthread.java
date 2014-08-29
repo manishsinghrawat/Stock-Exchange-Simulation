@@ -18,7 +18,7 @@ public class Exthread implements Runnable{
         profit=0;
         currentorder=null;
         ordgen=ord;
-        file=new File("c:\\exchange.out");
+        file=new File("..\\exchange.out");
 
         try{
             if (!file.exists())

@@ -11,7 +11,7 @@ public class Ordergen implements Runnable{
         this.stk=stk;
         this.starttime=starttime;
         this.queqe=queqe;
-        file=new File("c:\\order.out");
+        file=new File("..\\order.out");
 
         try{
             if (!file.exists())
